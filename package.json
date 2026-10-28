@@ -1,0 +1,20 @@
+{
+  "name": "prettier-configs-collection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Six self-contained Prettier presets with verified formatting examples.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-configs.mjs",
+    "test": "node --test",
+    "examples:generate": "node scripts/generate-examples.mjs",
+    "format": "prettier . --config configs/base.json --write",
+    "format:check": "prettier . --config configs/base.json --check"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}

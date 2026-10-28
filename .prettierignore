@@ -1,0 +1,5 @@
+# Inputs intentionally show unformatted code. Outputs use their own presets.
+examples/
+node_modules/
+coverage/
+package-lock.json

@@ -1,0 +1,3 @@
+name: Team handbook
+sections: [getting-started,development,support]
+formatting: {indentation: 2,lineEndings: lf}
